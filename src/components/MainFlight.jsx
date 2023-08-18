@@ -4,7 +4,7 @@ import { FaPlaneDeparture } from 'react-icons/fa'
 const MainFlight = () => {
   return (
     <>
-        <section className="w-full  my-20 py-14">
+        <section className="w-full shadow-xl border rounded-lg my-20 py-14">
         <div className="text-center my-14">
             <h1 className="text-4xl font-semibold">Trip to Cape Town - 09 - 12 May 2023</h1>
         </div>
