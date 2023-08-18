@@ -5,7 +5,7 @@ import {GiAirplaneDeparture} from 'react-icons/gi'
 import {MdAttachEmail} from 'react-icons/md'
 
 
-const ThirdFlight = () => {
+const ThirdFlight = ({handleMain}) => {
   return (
     <section className='w-full my-20'>
     <div className="flex justify-center mx-4 md:mx-0 ">
@@ -289,7 +289,7 @@ const ThirdFlight = () => {
 
     <div className="flex justify-center pb-6 items-center">
         <div className="">
-            <button className="px-10 text-xl font-semibold rounded-xl bg-green-700 py-3 text-white">Continue Planning</button>
+            <button onClick={()=>handleMain()} className="px-10 text-xl font-semibold rounded-xl bg-green-700 py-3 text-white">Continue Planning</button>
         </div>
     </div>
 

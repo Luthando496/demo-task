@@ -18,6 +18,9 @@ const App = () => {
   const [links,setLinks] = useState(false)
   const [itPop,setItPop] = useState(false)
   const [alert,setAlert] = useState(false)
+  const [flight,setFlight] = useState(false)
+  const [main,setMain] = useState(false)
+  const [last,setLast] = useState(false)
 
   const handlePop=()=>{
     setPop(!popBanner)
@@ -33,13 +36,28 @@ const App = () => {
     setItPop(!itPop)
     setAlert(!alert)
   }
+  const handleFlight=()=>{
+  setAlert(!alert)
+    setFlight(!flight)
+  }
+
+  const handleMain=()=>{
+    setFlight(!flight)
+    setMain(!main)
+  }
+  const handleLast=()=>{
+    setMain(!main)
+    setLast(!last)
+  }
 
   return (
     <>
     {popBanner && <PopUpBanners handlePop={handlePop} />}
     {links && <RefferalLinks handleLinks={handleLinks} />}
     {itPop && <Alert handleAlert={handleAlert} />}
-    {alert && <ThirdFlight handleAlert={handleAlert} />}
+    {alert && <FlightCard handleAlert={handleFlight} />}
+    {flight && <ThirdFlight handleMain={handleMain} />}
+    {main && <MainFlight handleLast={handleLast} />}
 
 
     </>

@@ -3,7 +3,9 @@ import {FaRegTimesCircle} from 'react-icons/fa'
 import {GiAirplaneDeparture} from 'react-icons/gi'
 
 
-const FlightCard = () => {
+const FlightCard = ({handleAlert}) => {
+
+
   return (
     <section className='w-full my-20'>
     <div className="mx-2 md:mx-14 mt-14 bg-line py-10 relative">
@@ -167,7 +169,7 @@ const FlightCard = () => {
 
     <div className="flex justify-center items-center">
         <div className="">
-            <button className="px-10 text-xl font-semibold rounded-xl bg-green-700 py-3 text-white">Continue Planning</button>
+            <button onClick={()=>handleAlert()} className="px-10 text-xl font-semibold rounded-xl bg-green-700 py-3 text-white">Continue Planning</button>
         </div>
     </div>
 
