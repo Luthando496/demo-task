@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 import {FaRegTimesCircle} from 'react-icons/fa'
 import {BsPersonUp} from 'react-icons/bs'
 import {IoMdAirplane} from 'react-icons/io'
@@ -14,13 +14,33 @@ import MainFlight from './components/MainFlight'
 
 
 const App = () => {
+  const [popBanner,setPop] = useState(true)
+  const [links,setLinks] = useState(false)
+  const [itPop,setItPop] = useState(false)
+  const [alert,setAlert] = useState(false)
+
+  const handlePop=()=>{
+    setPop(!popBanner)
+    setLinks(!links)
+  }
+
+  const handleLinks=()=>{
+    setLinks(!links)
+    setItPop(!itPop)
+  }
+
+  const handleAlert=()=>{
+    setItPop(!itPop)
+    setAlert(!alert)
+  }
+
   return (
     <>
-    <Alert />
-    <RefferalLinks />
-    <PopUpBanners />
-    <ThirdFlight />
-    <MainFlight />
+    {popBanner && <PopUpBanners handlePop={handlePop} />}
+    {links && <RefferalLinks handleLinks={handleLinks} />}
+    {itPop && <Alert handleAlert={handleAlert} />}
+    {alert && <ThirdFlight handleAlert={handleAlert} />}
+
 
     </>
   )

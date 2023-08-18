@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Alert = () => {
+const Alert = ({handleAlert}) => {
   return (
     <>
     <section className="flex px-4 w-full justify-center items-center mt-24">
@@ -9,7 +9,7 @@ const Alert = () => {
 
         <div className="mt-10 flex justify-center items-center">
         <div className="flex gap-8 ">
-            <button className="bg-green-800 text-white text-base md:text-xl rounded-xl px-4 lg:px-6 py-2">Preview Itinerary</button>
+            <button onClick={()=> handleAlert()} className="bg-green-800 text-white text-base md:text-xl rounded-xl px-4 lg:px-6 py-2">Preview Itinerary</button>
             <button className="bg-green-800 text-white text-base md:text-xl rounded-xl px-4 lg:px-6 py-2">Continue Planning</button>
         </div>
         </div>

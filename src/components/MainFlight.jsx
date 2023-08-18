@@ -1,6 +1,8 @@
 import React from 'react'
 import { FaPlaneDeparture } from 'react-icons/fa'
 
+
+
 const MainFlight = () => {
   return (
     <>
