@@ -8,8 +8,8 @@ const Alert = ({handleAlert}) => {
         <h1 className="text-2xl lg:text-3xl text-center fon-bold text-black">We have begun creating your well rounded itinerary</h1>
 
         <div className="mt-10 flex justify-center items-center">
-        <div className="flex gap-8 ">
-            <button onClick={()=> handleAlert()} className="bg-green-800 text-white text-base md:text-xl rounded-xl px-4 lg:px-6 py-2">Preview Itinerary</button>
+        <div className="flex w-full flex-col gap-3 md:gap-8  md:flex-row">
+            <button onClick={()=> handleAlert()} className=" bg-green-800 text-white text-base md:text-xl rounded-xl px-4 lg:px-6 py-2">Preview Itinerary</button>
             <button className="bg-green-800 text-white text-base md:text-xl rounded-xl px-4 lg:px-6 py-2">Continue Planning</button>
         </div>
         </div>
