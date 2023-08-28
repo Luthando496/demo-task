@@ -15,28 +15,28 @@ const RefferalLinks = ({handleLinks}) => {
   return createPortal(
     <>
     <section className="flex px-4 w-full justify-center items-center mt-24">
-    <article className="px-4 md:px-10 py-5 bg-white rounded-lg shadow-2xl relative">
+    <article className="px-4 w-full md:px-10 py-5 bg-white rounded-lg shadow-2xl relative">
     <FaRegTimesCircle className="absolute top-0 right-0 mt-2 mr-3 text-2xl"  />
-    <div className="grid grid-cols-3  lg:grid-cols-5 items-center gap-4 mt-10">
-      <div className="w-full text-center flex flex-col cursor-pointer justify-center items-center" onClick={onClickButton}>
-        <AiOutlineFileProtect className="text-3xl md:text-4xl text-gray-500" />
-        <h2 className="md:text-2xl font-semibold">Travel <br className='' />Insurance</h2>
+    <div className="grid grid-cols-1 md:grid-cols-3  lg:grid-cols-5 items-center gap-4 mt-10">
+      <div className="rounded-2xl px-2 md:px-0 bg-gray-500/30 flex justify-between py-2  w-full md:text-center md:flex md:flex-col cursor-pointer md:justify-center md:bg-white md:items-center" onClick={onClickButton}>
+        <AiOutlineFileProtect className="text-xl text-black lg:text-3xl md:text-4xl md:text-gray-500" />
+        <h2 className="md:text-2xl font-semibold">Travel <br className='hidden md:block ' />Insurance</h2>
       </div>
-      <div className="w-full text-center flex flex-col cursor-pointer justify-center items-center" onClick={onClickButton}>
-        <BiBed className="text-3xl md:text-4xl text-gray-500" />
+      <div className="rounded-2xl px-2 md:px-0 bg-gray-500/30 flex justify-between py-2  w-full md:text-center md:flex md:flex-col cursor-pointer md:justify-center md:bg-white md:items-center" onClick={onClickButton}>
+        <BiBed className="text-xl text-black lg:text-3xl md:text-4xl md:text-gray-500" />
         <h2 className="md:text-2xl font-semibold">Hotel </h2>
       </div>
-      <div className="w-full text-center flex flex-col cursor-pointer justify-center items-center" onClick={onClickButton}>
-        <BsPersonUp className="text-3xl md:text-4xl text-gray-500" />
+      <div className="rounded-2xl px-2 md:px-0 bg-gray-500/30 flex justify-between py-2  w-full md:text-center md:flex md:flex-col cursor-pointer md:justify-center md:bg-white md:items-center" onClick={onClickButton}>
+        <BsPersonUp className="text-xl text-black lg:text-3xl md:text-4xl md:text-gray-500" />
         <h2 className="md:text-2xl font-semibold">Attractions </h2>
       </div>
-      <div className="w-full text-center flex flex-col cursor-pointer justify-center items-center" onClick={onClickButton}>
-        <IoMdAirplane className="text-3xl md:text-4xl text-gray-500" />
+      <div className="rounded-2xl px-2 md:px-0 bg-gray-500/30 flex justify-between py-2  w-full md:text-center md:flex md:flex-col cursor-pointer md:justify-center md:bg-white md:items-center" onClick={onClickButton}>
+        <IoMdAirplane className="text-xl text-black lg:text-3xl md:text-4xl md:text-gray-500" />
         <h2 className="md:text-2xl font-semibold">Flights</h2>
       </div>
-      <div className="w-full text-center flex flex-col cursor-pointer justify-center items-center" onClick={onClickButton}>
-        <AiOutlineCar className="text-3xl md:text-4xl text-gray-500" />
-        <h2 className="md:text-2xl font-semibold">Car <br className='' />Rental</h2>
+      <div className="rounded-2xl px-2 md:px-0 bg-gray-500/30 flex justify-between py-2  w-full md:text-center md:flex md:flex-col cursor-pointer md:justify-center md:bg-white md:items-center" onClick={onClickButton}>
+        <AiOutlineCar className="text-xl text-black lg:text-3xl md:text-4xl md:text-gray-500" />
+        <h2 className="md:text-2xl font-semibold">Car <br className='hidden md:block ' />Rental</h2>
       </div>
     </div>
 

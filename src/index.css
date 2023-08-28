@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
+body{
+    font-family: 'Frank Ruhl Libre', sans-serif;
+}
 
 .bg-line{
     background: linear-gradient(rgba(42, 47, 42, 0.42),rgba(31, 34, 31, 0)); 
