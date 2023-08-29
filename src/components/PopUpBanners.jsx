@@ -22,9 +22,9 @@ const PopUpBanners = ({handlePop}) => {
         <img src="https://www.pngall.com/wp-content/uploads/8/Vector-Travel-PNG-Free-Download.png" alt="travel-image" className="w-full h-[13rem] lg:h-auto object-fill  lg:object-cover" />
       </div>
 
-      <div className="text-article px-4 text-center">
+      <div className="text-article px-2 text-center">
         <h2 className="text-xl md:text-3xl font-semibold md:font-bold">
-          Would you also like to  book <br />  these  services <br className='' />  <TypeAnimation
+          Would you also like to <br />  book  these  services <br className='' />  <TypeAnimation
   sequence={[
     'Flight Tickets',
     900,
