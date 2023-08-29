@@ -26,6 +26,9 @@ body{
 .text-green-1{
     color: #047524;
 }
+.bg-green-1{
+    background-Color: #047524;
+}
 
 .af::before{
     content: '';

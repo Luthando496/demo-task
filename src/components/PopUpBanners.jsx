@@ -42,7 +42,7 @@ const PopUpBanners = ({handlePop}) => {
         </h2>
         <div className="flex mt-10 lg:justify-center lg:items-center  ">
         <div className="lg:rounded-2xl lg:bg-gray-500 flex-col w-full lg:w-none lg:flex-row lg:bg-gray-1 flex gap-4 px-4 py-2">
-          <button onClick={handleChange} className="px-8 lg:px-16 py-3 rounded-2xl bg-lime-500 text-white font-semibold text-xl">Yes</button>
+          <button onClick={handleChange} className="px-8 lg:px-16 py-3 rounded-2xl bg-green-1 text-white font-semibold text-xl">Yes</button>
           <button className="px-8 lg:px-10 py-3 rounded-2xl bg-gray-500 lg:bg-w-none  text-white font-semibold text-xl">No</button>
         </div>
           
