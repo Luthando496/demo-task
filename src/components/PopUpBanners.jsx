@@ -40,7 +40,7 @@ const PopUpBanners = ({handlePop}) => {
   className='text-xl md:text-3xl font-semibold md:font-bold text-green-1'
   
   repeat={Infinity}
-/><br className='' />  While we automatically create  a<br className='hidden lg:block' /> <span className="text-green-1">well-rounded-itinerary</span> for you.
+/><br className='' />  While we automatically create<br className='' />  a <span className="text-green-1">well-rounded-itinerary</span> for you.
         </h2>
         <div className="flex mt-10 lg:justify-center lg:items-center  ">
         <div className="lg:rounded-2xl lg:bg-gray-500 flex-col w-full lg:w-none lg:flex-row lg:bg-gray-1 flex gap-4 px-4 py-2">
