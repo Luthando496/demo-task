@@ -19,7 +19,7 @@ const PopUpBanners = ({handlePop}) => {
     <article className="px:10  md:px-10 py-5 bg-white rounded-lg shadow-2xl">
       <div className="flex flex-col lg:flex-row gap-4 items-center">
       <div className="img w-full  flex justify-center md:w-[12rem]">
-        <img src="https://www.pngall.com/wp-content/uploads/8/Vector-Travel-PNG-Free-Download.png" alt="travel-image" className="w-full h-[13rem] lg:h-auto object-fill  lg:object-cover" />
+        <img src="https://www.pngall.com/wp-content/uploads/8/Vector-Travel-PNG-Free-Download.png" alt="travel-image" className="w-full h-[13rem] lg:h-auto object-contain  lg:object-cover" />
       </div>
 
       <div className="text-article px-2 text-center">
