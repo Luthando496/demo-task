@@ -24,7 +24,7 @@ const PopUpBanners = ({handlePop}) => {
 
       <div className="text-article px-4 text-center">
         <h2 className="text-xl md:text-3xl font-semibold md:font-bold">
-          Would you also like to book  these  services <br className='' />  <TypeAnimation
+          Would you also like to  book <br />  these  services <br className='' />  <TypeAnimation
   sequence={[
     'Flight Tickets',
     900,
