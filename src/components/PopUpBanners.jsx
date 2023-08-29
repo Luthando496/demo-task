@@ -23,7 +23,7 @@ const PopUpBanners = ({handlePop}) => {
       </div>
 
       <div className="text-article px-2 text-center">
-        <h2 className="text-xl leading-[1.5] md:text-3xl font-semibold md:font-bold">
+        <h2 className="text-2xl leading-[1.5] md:text-3xl font-semibold md:font-bold">
           Would you also like to <br />  book  these  services <br className='' />  <TypeAnimation
   sequence={[
     'Flight Tickets',
@@ -37,7 +37,7 @@ const PopUpBanners = ({handlePop}) => {
     'car rental',
     900,
   ]}
-  className='text-xl md:text-3xl font-semibold md:font-bold text-green-1'
+  className='text-2xl md:text-3xl font-semibold md:font-bold text-green-1'
   
   repeat={Infinity}
 /><br className='' />  While we automatically create<br className='' />  a <span className="text-green-1">well-rounded-itinerary</span> for you.
