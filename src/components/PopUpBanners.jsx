@@ -20,7 +20,7 @@ const PopUpBanners = ({handlePop}) => {
         <img src="https://www.pngall.com/wp-content/uploads/8/Vector-Travel-PNG-Free-Download.png" alt="travel-image" className="w-full h-[16rem] lg:h-auto object-fill  lg:object-cover" />
       </div>
 
-      <div className="text-article">
+      <div className="text-article px-4">
         <h2 className="text-xl md:text-3xl font-semibold md:font-bold">
           Would you also like to book  these <br className='hidden md:block' /> services <TypeAnimation
   sequence={[
