@@ -13,7 +13,7 @@ const PopUpBanners = ({handlePop}) => {
   return  createPortal(
     <>
     {popBanner && (
-    <section className="flex px-4 w-full justify-center items-center my-4">
+    <section className="md:flex px-4 w-full md:justify-center md:items-center my-4">
     <article className="px:10  md:px-10 py-5 bg-white rounded-lg shadow-2xl">
       <div className="flex flex-col lg:flex-row gap-4 items-center">
       <div className="img w-full  flex justify-center md:w-[12rem]">
