@@ -13,8 +13,8 @@ const PopUpBanners = ({handlePop}) => {
   return  createPortal(
     <>
     {popBanner && (
-    <section className="flex px-4 w-full justify-center items-center my-24">
-    <article className="px:10  md:px-10 py-5 bg-white rounded-lg shadow-xl">
+    <section className="flex px-4 w-full justify-center items-center my-4">
+    <article className="px:10  md:px-10 py-5 bg-white rounded-lg shadow-2xl">
       <div className="flex flex-col lg:flex-row gap-4 items-center">
       <div className="img w-full  flex justify-center md:w-[12rem]">
         <img src="https://www.pngall.com/wp-content/uploads/8/Vector-Travel-PNG-Free-Download.png" alt="travel-image" className="w-full h-[16rem] lg:h-auto object-fill  lg:object-cover" />
@@ -38,7 +38,7 @@ const PopUpBanners = ({handlePop}) => {
   className='text-xl md:text-3xl font-semibold md:font-bold text-green-1'
   
   repeat={Infinity}
-/>While we automatically create <br className='' /> a <span className="text-green-1">well-rounded-itinerary</span> for you.
+/>While we automatically create <br className='hidden md:block' /> a <span className="text-green-1">well-rounded-itinerary</span> for you.
         </h2>
         <div className="flex mt-10 lg:justify-center lg:items-center  ">
         <div className="lg:rounded-2xl lg:bg-gray-500 flex-col w-full lg:w-none lg:flex-row lg:bg-gray-1 flex gap-4 px-4 py-2">
