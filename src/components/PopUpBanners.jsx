@@ -22,7 +22,7 @@ const PopUpBanners = ({handlePop}) => {
 
       <div className="text-article">
         <h2 className="text-xl md:text-3xl font-semibold md:font-bold">
-          Would you also like to book <br className='hidden md:block' /> these services <TypeAnimation
+          Would you also like to book  these <br className='hidden md:block' /> services <TypeAnimation
   sequence={[
     'Flight Tickets',
     900,
@@ -38,7 +38,7 @@ const PopUpBanners = ({handlePop}) => {
   className='text-xl md:text-3xl font-semibold md:font-bold text-green-1'
   
   repeat={Infinity}
-/>
+/>While we automatically create <br className='' /> a <span className="text-green-1">well-rounded-itinerary</span> for you.
         </h2>
         <div className="flex mt-10 lg:justify-center lg:items-center  ">
         <div className="lg:rounded-2xl lg:bg-gray-500 flex-col w-full lg:w-none lg:flex-row lg:bg-gray-1 flex gap-4 px-4 py-2">
