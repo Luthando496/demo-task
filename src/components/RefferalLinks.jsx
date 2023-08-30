@@ -15,6 +15,8 @@ const RefferalLinks = ({handleLinks}) => {
   return createPortal(
     <>
     <section className="flex px-4 w-full justify-center items-center mt-24">
+    <div className='absolute z-[1] top-0 left-0 w-full h-full overlay-bg'></div>
+    
     <article className="px-4 w-full md:px-10 py-5 bg-white rounded-lg shadow-2xl relative">
     <FaRegTimesCircle className="absolute top-0 right-0 mt-2 mr-3 text-2xl"  />
     <div className="grid grid-cols-1 md:grid-cols-3  lg:grid-cols-5 items-center gap-4 mt-10">
