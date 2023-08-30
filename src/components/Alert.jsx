@@ -4,7 +4,7 @@ const Alert = ({handleAlert}) => {
   return (
     <>
     <section className="bg-white min-h-screen w-full">
-    <div className='absolute z-[1] top-0 left-0 w-full h-full bg-black/10'></div>
+    <div className='fixed z-[1] top-0 left-0 w-full h-full bg-black/10'></div>
     <div className="absolute flex px-4 w-full justify-center items-center h-full">
     <article className="px-4 z-10 md:px-10 py-10 bg-white rounded-lg shadow-2xl relative">
         <h1 className="text-2xl lg:text-3xl text-center fon-bold text-black">We have begun creating your well rounded itinerary</h1>
